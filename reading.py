@@ -2,6 +2,9 @@
 """
 Created on Sun Feb 08 22:09:41 2015
 
+prend les fichiers pour les transformer en un fichier unique
+ne marce que pour cantonales pour l'instant
+
 @author: alexis
 """
 
@@ -13,12 +16,15 @@ import pandas as pd
 
 "PRESIDENTIELLES_1965-2012-csv"
 "LEGISLATIVES_1958-2012-csv"
-index_date_name = 10
-
-
 "REGIONALES_1986-2010-csv"
+"CANTONALES_1988-2011-csv"
 folder = "CANTONALES_1988-2011-csv"
-index_date_name = 9
+
+
+if folder in ["REGIONALES_1986-2010-csv", "PRESIDENTIELLES_1965-2012-csv"]:
+    index_date_name = 10
+if folder in ["LEGISLATIVES_1958-2012-csv", "CANTONALES_1988-2011-csv"]:
+    index_date_name = 9    
 
 rename_cols = {
     u'Code du canton': u'Code canton',
@@ -49,6 +55,7 @@ for path in glob.glob('data/' + folder + '/*.csv'):
     print tab.columns
 
 filename_out = 'data/' + folder.split('_')[0] + '.csv'
+# TODO: out['Votants'] = out['Votants'].str.replace(' ','')
 out.to_csv(filename_out, index=False, sep=';')
 
 list_sub_var = ['NoDepot', 'Nom', u'Prenom', 'Sexe']
