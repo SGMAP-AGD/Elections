@@ -20,6 +20,11 @@ index_date_name = 10
 folder = "CANTONALES_1988-2011-csv"
 index_date_name = 9
 
+rename_cols = {
+    u'Code du canton': u'Code canton',
+    u'Code du département': u'Code département',
+    u'Prénom': 'Prenom',
+    }
 
 out = pd.DataFrame()
 for path in glob.glob('data/' + folder + '/*.csv'):
@@ -35,16 +40,11 @@ for path in glob.glob('data/' + folder + '/*.csv'):
     annee = int(date[:4])
     tour = int(date[-1])
     print annee, tour
-    
-    
+
     tab = pd.read_csv(path, encoding='utf8')
     tab['annee'] = annee
     tab['tour'] = tour
-    tab.rename(columns={
-                        u'Code du canton': u'Code canton',
-                        u'Code du département': u'Code département',
-                        u'Prénom': 'Prenom',
-                        }, inplace=True)
+    tab.rename(columns=rename_cols, inplace=True)
     out = out.append(tab)
     print tab.columns
 
@@ -53,7 +53,7 @@ out.to_csv(filename_out, index=False, sep=';')
 
 list_sub_var = ['NoDepot', 'Nom', u'Prenom', 'Sexe']
 cols_to_keep = [col for col in out.columns
-                if not any(x in col for x in list_sub_var)] 
+                if not any(x in col for x in list_sub_var)]
 out = out[cols_to_keep]
 
 for col in out.columns:
