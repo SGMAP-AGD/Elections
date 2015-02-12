@@ -54,3 +54,6 @@ Voici quelques outils permettant de faire des cartes :
 * [d3.js](http://bost.ocks.org/mike/map/), une librairie javascript développée par Mike Bostock
 * [kartograph](http://kartograph.org/), une librairie python et javascript développée par Gregor Aisch (@gka)
 
+### Nettoyage des fichiers
+
+* [LireMinInterieur](https://github.com/joelgombin/LireMinInterieur), un package R développé par @joelgombin pour nettoyer les fichiers électoraux du ministère de l'Intérieur 
