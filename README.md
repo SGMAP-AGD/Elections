@@ -56,4 +56,4 @@ Voici quelques outils permettant de faire des cartes :
 
 ### Nettoyage des fichiers
 
-* [LireMinInterieur](https://github.com/joelgombin/LireMinInterieur), un package R développé par @joelgombin pour nettoyer les fichiers électoraux du ministère de l'Intérieur 
+* [LireMinInterieur](https://github.com/joelgombin/LireMinInterieur), un package R développé par @joelgombin pour nettoyer les fichiers électoraux du ministère de l'Intérieur.
