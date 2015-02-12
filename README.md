@@ -23,6 +23,16 @@ Documentation pour l'Open Data Camp Elections organisé le 23 février 2015 par 
 
 ### Découpages territoriaux
 
+* Contour des circonscriptions électorales après le redécoupage de 2010 : 
+ * [Fichiers de Joel Gombin](http://www.joelgombin.fr/un-fonds-de-carte-vectoriel-pour-les-circonscriptions-legislatives/) en KML et Shapefile.
+
+### Données sociodémographiques des circonscriptions 
+
+* Description sociodémographiques des circonscriptions électorales d'après l'Insee 
+ * [page web](http://www.insee.fr/fr/themes/detail.asp?reg_id=0&ref_id=circo_leg-2012)
+ * [Fichier xls](http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/circo_leg/circo_leg-2012/tableau/circonscriptions.xls)
+
+
 ## Outils 
 
 ### Cartographie
