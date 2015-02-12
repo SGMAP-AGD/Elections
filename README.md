@@ -8,6 +8,9 @@ Documentation pour l'Open Data Camp Elections organisé le 23 février 2015 par 
 
 ### Elections législatives
 
+* A savoir
+ * L'élection législative de 1986 est la seule élection au scrutin proportionnel
+
 * Structure des données : 
   * 1958-1981 : Circonscription * Tour * Tendance
   * 1986 : Circonscription * Tendance
@@ -23,8 +26,13 @@ Documentation pour l'Open Data Camp Elections organisé le 23 février 2015 par 
 
 ### Découpages territoriaux
 
+* [IGN-GeoFla](http://professionnels.ign.fr/geofla#tab-3) Découpage administratif national réalisé par l'IGN. 
+ * Contient les Shapefiles des communes, des cantons et des départements de 2011 à 2014  
+* [Contour des communes actuelles d'après OpenStreetMap](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/)
+* [Contour des départements actuels d'après OpenStreetMap](https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/)
 * Contour des circonscriptions électorales après le redécoupage de 2010 : 
  * [Fichiers de Joel Gombin](http://www.joelgombin.fr/un-fonds-de-carte-vectoriel-pour-les-circonscriptions-legislatives/) en KML et Shapefile.
+
 
 ### Données sociodémographiques des circonscriptions 
 
