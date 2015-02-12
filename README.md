@@ -51,9 +51,11 @@ Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015
 Voici quelques outils permettant de faire des cartes : 
 
 * R + ggplot : 
+ * [carto_departements.R](https://github.com/SGMAP-AGD/Elections/blob/master/R/carto_departements.R)  exemple de scripts R pour tracer le contour des départements à partir d'un Shapefile
 * [d3.js](http://bost.ocks.org/mike/map/) : une librairie javascript de visualisation interactive de données développée par Mike Bostock (@mbostock)
 * [datamaps](http://datamaps.github.io) : une librairie javascript spécialisée en cartographie qui s'appuie sur d3.js
 * [R + leaflet](http://rstudio.github.io/leaflet/) : un package qui permet de faire des cartes en leaflet.js depuis R
+ * [leaflet_departements.R](https://github.com/SGMAP-AGD/Elections/blob/master/R/leaflet_departements.R) : exemple de script R permettant de tracer le contour des départements sur une carte leaflet.js 
 * [R + rMaps](http://rmaps.github.io/) : un package qui permet de réaliser des cartes en datamaps.js directement depuis R
 * [kartograph](http://kartograph.org/), une librairie python et javascript développée par Gregor Aisch (@gka)
 
