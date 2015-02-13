@@ -6,6 +6,10 @@ Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015
 
 ### Elections présidentielles
 
+* Structure des données :
+ * 1965-2012 : Circonscription * Tour * Candidat
+ * 1981-2002 : Commune * Tour * Candidat pour les communes de plus de 9 000 habitants
+
 ### Elections législatives
 
 * A savoir
@@ -15,12 +19,23 @@ Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015
   * 1958-1981 : Circonscription * Tour * Tendance
   * 1986 : Circonscription * Tendance
   * 1988-2012 : Circonscription * Tour * Candidat
-  * 1988-1997 : Communes * Tour * Tendance pour les communes de plus de 9 000 habitants
-  * 2002-2012 : Communes * Tour * Tendance pour toutes les communes
+  * 1988-1997 : Commune * Tour * Tendance pour les communes de plus de 9 000 habitants
+  * 2002-2012 : Commune * Tour * Tendance pour toutes les communes
 
 ### Elections régionales
 
+* Structure des données
+ * 1986-1998 : Commune  * Tendance pour les communes de plus de 9 000 habitants 
+ * 2004 : Commune * Tour * Liste pour les communes de plus de 3 500 habitants
+ * 1986-1992 : Département * Tendance
+ * 1998 : Circonscription * Liste
+ * 2004-2010 : Circonscription * Tour * Liste
+
 ### Elections cantonales
+
+* Structure des données
+ * 1988-1998 :  Canton * Tour * Tendance
+ * 2001-2011 : Canton * Tour * Candidat
 
 ## Données annexes
 
