@@ -58,6 +58,7 @@ Voici quelques outils permettant de faire des cartes :
  * [leaflet_departements.R](https://github.com/SGMAP-AGD/Elections/blob/master/R/leaflet_departements.R) : exemple de script R permettant de tracer le contour des départements sur une carte leaflet.js 
 * [R + rMaps](http://rmaps.github.io/) : un package qui permet de réaliser des cartes en datamaps.js directement depuis R
 * [kartograph](http://kartograph.org/), une librairie python et javascript développée par Gregor Aisch (@gka)
+* [geojson.io](http://geojson.io/#map=2/20.0/0.0) outil en ligne permettant de faire des conversion entre Shapefile, KML et GeoJSON
 
 ### Nettoyage des fichiers
 
