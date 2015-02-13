@@ -67,6 +67,7 @@ Voici quelques outils permettant de faire des cartes :
 
 * R + ggplot : 
  * [carto_departements.R](https://github.com/SGMAP-AGD/Elections/blob/master/R/carto_departements.R)  exemple de scripts R pour tracer le contour des départements à partir d'un Shapefile
+ * [carto_departements_geoJSON.R](https://github.com/SGMAP-AGD/Elections/blob/master/R/carto_departements_geoJSON.R=) exemple de script pour réaliser une carte en R à partir d'un fichier geoJSON
 * [d3.js](http://bost.ocks.org/mike/map/) : une librairie javascript de visualisation interactive de données développée par Mike Bostock (@mbostock)
 * [datamaps](http://datamaps.github.io) : une librairie javascript spécialisée en cartographie qui s'appuie sur d3.js
 * [R + leaflet](http://rstudio.github.io/leaflet/) : un package qui permet de faire des cartes en leaflet.js depuis R
