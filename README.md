@@ -59,6 +59,10 @@ Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015
 
 * [Résultats électoraux publiés par le ministère de l'Intérieur](http://www.interieur.gouv.fr/Elections/Les-resultats)
 
+#### Comptes de campagne
+
+* [Données des comptes de campagne des élections législatives de 2012](https://www.data.gouv.fr/fr/datasets/tableau-general-des-elections-legislatives-des-10-et-17-juin-2012/)
+
 ## Outils 
 
 ### Cartographie
