@@ -63,3 +63,9 @@ Voici quelques outils permettant de faire des cartes :
 ### Nettoyage des fichiers
 
 * [LireMinInterieur](https://github.com/joelgombin/LireMinInterieur), un package R développé par @joelgombin pour nettoyer les fichiers électoraux du ministère de l'Intérieur.
+
+### Outils de graphiques
+
+* [RAW](http://raw.densitydesign.org/) : un outil en ligne pour faire des graphiques facilement
+* [DataWrapper](https://datawrapper.de/) : un outil en ligne pour faire des graphiques simples
+* 
