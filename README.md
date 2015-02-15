@@ -47,6 +47,7 @@ Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015
 * [Contour des départements actuels d'après OpenStreetMap](https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/)
 * Contour des circonscriptions électorales après le redécoupage de 2010 : 
  * [Fichiers de Joel Gombin](http://www.joelgombin.fr/un-fonds-de-carte-vectoriel-pour-les-circonscriptions-legislatives/) en KML et Shapefile.
+ * [Le Fichier de Joel Gombin converti en geoJSON](https://github.com/SGMAP-AGD/Elections/blob/master/circonscriptions2010.geoJSON)
 * [Régions, départements et communes métropolitaines françaises au format GeoJSON](https://github.com/gregoiredavid/france-geojson)
 
 ### Données sociodémographiques des circonscriptions 
