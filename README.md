@@ -4,6 +4,8 @@ Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015
 
 ## Données du hackathon
 
+Note: le signe ' * ' indique le croisement de variable.
+
 ### Elections présidentielles
 
 * Structure des données :
