@@ -14,15 +14,17 @@ Note: le signe ' * ' indique le croisement de variable.
 
 ### Elections législatives
 
-* A savoir
- * L'élection législative de 1986 est la seule élection au scrutin proportionnel
+#### Structure des données : 
 
-* Structure des données : 
-  * 1958-1981 : Circonscription * Tour * Tendance
-  * 1986 : Circonscription * Tendance
-  * 1988-2012 : Circonscription * Tour * Candidat
-  * 1988-1997 : Commune * Tour * Tendance pour les communes de plus de 9 000 habitants
-  * 2002-2012 : Commune * Tour * Tendance pour toutes les communes
+* 1958-1981 : Circonscription * Tour * Tendance
+* 1986 : Circonscription * Tendance
+* 1988-2012 : Circonscription * Tour * Candidat
+* 1988-1997 : Commune * Tour * Tendance pour les communes de plus de 9 000 habitants
+* 2002-2012 : Commune * Tour * Tendance pour toutes les communes
+
+#### Contexte
+
+* L'élection législative de 1986 est la seule élection au scrutin proportionnel
 
 ### Elections régionales
 
@@ -41,7 +43,7 @@ Note: le signe ' * ' indique le croisement de variable.
 
 ##### Contexte 
 
-Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des élections départementales. Les premières élections départementales se tiendront les éé et 29 mai 2015.
+Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des élections départementales. Les premières élections départementales se tiendront les éé et 29 mai 2015. Le mode de scrutin est désormais un scrutin binomial majoritaire à deux tours et les cantons ont été redéfinis et le nombre de cantons a été divisé par deux. On passe de 4 055 à 2 074 en 2014.
 
 * [En savoir plus](https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015)
 
