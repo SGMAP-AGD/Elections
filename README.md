@@ -35,9 +35,15 @@ Note: le signe ' * ' indique le croisement de variable.
 
 ### Elections cantonales
 
-* Structure des données
- * 1988-1998 :  Canton * Tour * Tendance
- * 2001-2011 : Canton * Tour * Candidat
+##### Structure des données
+* 1988-1998 :  Canton * Tour * Tendance
+* 2001-2011 : Canton * Tour * Candidat
+
+##### Contexte 
+
+Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des élections départementales. Les premières élections départementales se tiendront les éé et 29 mai 2015.
+
+* [En savoir plus](https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015)
 
 ## Données annexes
 
