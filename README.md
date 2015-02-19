@@ -72,6 +72,9 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
 * Informations sur l'imposition sur le revenu par commune en 2010, 2011, 2012
  * [fichiers xls](https://www.data.gouv.fr/fr/datasets/l-impot-sur-le-revenu-par-collectivite-territoriale/)
  * [script d'aggrégation et conversion en csv](https://github.com/Leobouloc/save_online/blob/master/load_ircom.py)
+* Données de criminologie par département en 2013
+ * [données de la gendarmerie nationale](https://www.data.gouv.fr/fr/datasets/les-crimes-et-delits-enregistres-par-la-gendarmerie-nationale/)
+ * [données de la police nationale](https://www.data.gouv.fr/fr/datasets/crimes-et-delits-constates-par-la-police-nationale-en-2013/)
 
 ### Données électorales
 
