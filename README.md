@@ -2,6 +2,10 @@
 
 Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015 par le Centre de données socio-politiques (IEP Paris), le ministère de l'Intérieur et Etalab. 
 
+## Sujets
+
+Chacun peut proposer un sujet sur le [pad](https://lite5.framapad.org/p/x7bq6bVyFO) du projet. Soyez brefs et inventifs. Tous les porteurs d'un sujet seront invités à le présenter rapidement lundi matin pour former une équipe.
+
 ## Données du hackathon
 
 Note: le signe ' * ' indique le croisement de variable.
