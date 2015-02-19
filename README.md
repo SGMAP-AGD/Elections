@@ -65,7 +65,7 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
 * Description sociodémographiques des circonscriptions électorales d'après l'Insee en 2012
  * [page web](http://www.insee.fr/fr/themes/detail.asp?reg_id=0&ref_id=circo_leg-2012)
  * [Fichier xls](http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/circo_leg/circo_leg-2012/tableau/circonscriptions.xls)
-* Informations sur l'imposition sur le revenu par commune d'après l'Insee en 2010, 2011, 2012
+* Informations sur l'imposition sur le revenu par commune en 2010, 2011, 2012
  * [fichiers xls](https://www.data.gouv.fr/fr/datasets/l-impot-sur-le-revenu-par-collectivite-territoriale/)
 
 ### Données électorales
