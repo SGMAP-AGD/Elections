@@ -48,7 +48,10 @@ Note: le signe ' * ' indique le croisement de variable.
 
 #### Structure des données du ministère de l'Intérieur
 
-* Départementales 2015 : Canton * Binome * Candidat avec le nom, le prénom, le sexe, la date de naissance, la profession, le fait que le candidat soit ou non sortant, le nom, le prénom, le sexe, la date de naissance du suppléant
+* Départementales 2015 : 
+  * Structure : Canton * Binome * Candidat 
+  * Variables : nom, prénom, sexe, date de naissance, profession et statut de sortant du candidat,  nom, prénom, sexe, date de naissance et statut de sortant du suppléant
+  * [Lien](https://www.data.gouv.fr/fr/datasets/elections-departementales-2015-candidatures-1er-tour/)
 
 ##### Contexte 
 
