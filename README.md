@@ -69,6 +69,7 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
  * [Fichiers de Joel Gombin](http://www.joelgombin.fr/un-fonds-de-carte-vectoriel-pour-les-circonscriptions-legislatives/) en KML et Shapefile.
  * [Le Fichier de Joel Gombin converti en geoJSON](https://github.com/SGMAP-AGD/Elections/blob/master/circonscriptions2010.geoJSON)
 * [Régions, départements et communes métropolitaines françaises au format GeoJSON](https://github.com/gregoiredavid/france-geojson)
+* [Contour des cantons 2015](https://www.data.gouv.fr/fr/datasets/contours-des-cantons-electoraux-departementaux-2015/) mis en ligne par le ministère de l'Intérieur pour l'Open Data Camp Elections
 
 ### Données sociodémographiques des circonscriptions 
 
