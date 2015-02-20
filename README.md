@@ -57,6 +57,7 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
 
 * [IGN-GeoFla](http://professionnels.ign.fr/geofla#tab-3) Découpage administratif national réalisé par l'IGN. 
  * Contient les Shapefiles des communes, des cantons et des départements de 2011 à 2014  
+ * Attention ! Il faut distinguer deux types de cantons : d'une part, le canton "réel", c'est-à-dire la circonscription électorale ; d'autre part, les cantons-et-villes ou pseudo-cantons, unités fictives constituées soit des communes entières comprises dans un canton "réel", soit d'une commune divisée en plusieurs cantons réels et formant un seul pseudo-canton. Les données diffusées par l'IGN ou l'INSEE sous le nom de canton concernent en réalité les pseudo-cantons, et il n'existe pas de découpage des cantons exhaustif (soit avant, soit après 2015) en libre. OpenStreetMap a numérisé [une partie des découpages cantonaux](http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France), avant et après 2015.
 * [Contour des communes actuelles d'après OpenStreetMap](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/)
 * [Contour des départements actuels d'après OpenStreetMap](https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/)
 * Contour des circonscriptions électorales après le redécoupage de 2010 : 
