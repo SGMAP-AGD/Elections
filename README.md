@@ -6,6 +6,10 @@ Page de ressources pour l'Open Data Camp Elections organisé le 23 février 2015
 
 Chacun peut proposer un sujet sur le [pad](https://lite5.framapad.org/p/x7bq6bVyFO) du projet. Soyez brefs et inventifs. Tous les porteurs d'un sujet seront invités à le présenter rapidement lundi matin pour former une équipe.
 
+## Restitutions
+
+N'hésitez pas à publier vos projets, par exemple sur GitHub, et à poster vos réutilisations sur [DataGouv](http://www.data.gouv.fr/).
+
 ## Données du hackathon
 
 Note: le signe ' * ' indique le croisement de variable.
