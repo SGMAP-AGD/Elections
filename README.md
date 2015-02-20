@@ -59,6 +59,12 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
 
 * [En savoir plus](https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015)
 
+### Données de l'INA
+
+Dans le cadre de DataElections, l'Institut national de l'audiovisuel met à la disposition des participants les métadonnées des journaux télévisés pendant les campagnes électorales. Chaque sujet de JT est décrit par son titre, la chaîne sur laquelle il passe, la durée, le titre du JT, la date du JT, un ensemble de tags et une description. 
+
+Ces données ne sont pas diffusées en OpenData et ceux qui veulent les utiliser doivent s'engager à supprimer les données à la fin de l'événement et à ne pas réutiliser les résultats sans autorisation de l'INA. 
+
 ## Données annexes
 
 ### Découpages territoriaux
@@ -73,6 +79,7 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
  * [Le Fichier de Joel Gombin converti en geoJSON](https://github.com/SGMAP-AGD/Elections/blob/master/circonscriptions2010.geoJSON)
 * [Régions, départements et communes métropolitaines françaises au format GeoJSON](https://github.com/gregoiredavid/france-geojson)
 * [Contour des cantons 2015](https://www.data.gouv.fr/fr/datasets/contours-des-cantons-electoraux-departementaux-2015/) mis en ligne par le ministère de l'Intérieur pour l'Open Data Camp Elections
+* [Table de correspondance des communes et des cantons avec les circonscriptions législatives](https://www.data.gouv.fr/fr/datasets/table-de-correspondance-des-communes-et-des-cantons-avec-les-circonscriptions-legislat-551418)
 
 ### Données sociodémographiques des circonscriptions 
 
@@ -90,6 +97,9 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
 ### Données électorales
 
 * [Résultats électoraux publiés par le ministère de l'Intérieur](http://www.interieur.gouv.fr/Elections/Les-resultats)
+
+* [Résultat des élections européennes de 2014](https://www.data.gouv.fr/fr/datasets/elections-europeennes-2014-resulta-2/) au niveau de la circonscription électorale européenne, de la région, du département, de la circonscription législative et du canton
+* [Résultat des élections européennes de 2014 par commune](https://www.data.gouv.fr/fr/datasets/elections-europeennes-2014-resultats-par-communes/)
 
 #### Comptes de campagne
 
@@ -120,4 +130,4 @@ Voici quelques outils permettant de faire des cartes :
 
 * [RAW](http://raw.densitydesign.org/) : un outil en ligne pour faire des graphiques facilement
 * [DataWrapper](https://datawrapper.de/) : un outil en ligne pour faire des graphiques simples
-* 
+
