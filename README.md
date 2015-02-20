@@ -39,11 +39,16 @@ Note: le signe ' * ' indique le croisement de variable.
  * 1998 : Circonscription * Liste
  * 2004-2010 : Circonscription * Tour * Liste
 
-### Elections cantonales
+### Elections cantonales et départementales
 
-##### Structure des données
+#### Structure des données du CDSP
+
 * 1988-1998 :  Canton * Tour * Tendance
 * 2001-2011 : Canton * Tour * Candidat
+
+#### Structure des données du ministère de l'Intérieur
+
+* Départementales 2015 : Canton * Binome * Candidat avec le nom, le prénom, le sexe, la date de naissance, la profession, le fait que le candidat soit ou non sortant, le nom, le prénom, le sexe, la date de naissance du suppléant
 
 ##### Contexte 
 
