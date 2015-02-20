@@ -75,6 +75,7 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
 * Données de criminologie par département en 2013
  * [données de la gendarmerie nationale](https://www.data.gouv.fr/fr/datasets/les-crimes-et-delits-enregistres-par-la-gendarmerie-nationale/)
  * [données de la police nationale](https://www.data.gouv.fr/fr/datasets/crimes-et-delits-constates-par-la-police-nationale-en-2013/)
+ * [script d'aggrégation et conversion en csv](https://github.com/Leobouloc/save_online/blob/master/load_crimes.py)
 
 ### Données électorales
 
