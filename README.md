@@ -16,56 +16,71 @@ Note: le signe ' * ' indique le croisement de variable.
 
 ### Elections présidentielles
 
-* Structure des données :
- * 1965-2012 : Circonscription * Tour * Candidat
- * 1981-2002 : Commune * Tour * Candidat pour les communes de plus de 9 000 habitants
+#### Données du CDSP
+
+* [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-presidentielles-1965-2012-1/)
+ * Structure des données :
+  * 1965-2012 : Circonscription * Tour * Candidat
+  * 1981-2002 : Commune * Tour * Candidat pour les communes de plus de 9 000 habitants
+
+#### Données du ministère de l'Intérieur
+
+* [Résultats des élections présidentielles de 1995 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-1995-resultats-572083/)
+ * Note : Les résultats sont aussi agrégés par circonscription législative, département et région 
+* [Résultats des élections présidentielles de 1995 par commune](https://www.data.gouv.fr/fr/datasets/election-presidentielle-1995-resultats-572085/) 
+* [Résultats des élections présidentielles de 2002 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572114/)
+* Résultats des élections présidentielles de 2002 par commune ([1er tour](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572116/), [2ème tour](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572118/))
+* [Résultats des élections présidentielles de 2007 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2007-resultats-572120/)
+* [Résultats des élections présidentielles de 2007 par commune](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2007-resultats-572122/)
+* [Résultats des élections présidentielles de 2012 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2012-resultats-572124/)
+ * Note : Les résultats sont aussi agrégés par circonscription législative, département et région 
+* [Résultats des élections présidentielles de 2012 par commune](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2012-resultats-572126/)
 
 ### Elections législatives
-
-#### Structure des données : 
-
-* 1958-1981 : Circonscription * Tour * Tendance
-* 1986 : Circonscription * Tendance
-* 1988-2012 : Circonscription * Tour * Candidat
-* 1988-1997 : Commune * Tour * Tendance pour les communes de plus de 9 000 habitants
-* 2002-2012 : Commune * Tour * Tendance pour toutes les communes
 
 #### Contexte
 
 * L'élection législative de 1986 est la seule élection au scrutin proportionnel
 
+#### Structure des données : 
+
+* [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-legislatives-1958-2012/)
+ * 1958-1981 : Circonscription * Tour * Tendance
+ * 1986 : Circonscription * Tendance
+ * 1988-2012 : Circonscription * Tour * Candidat
+ * 1988-1997 : Commune * Tour * Tendance pour les communes de plus de 9 000 habitants
+ * 2002-2012 : Commune * Tour * Tendance pour toutes les communes
+
 ### Elections régionales
 
-* Structure des données
- * 1986-1998 : Commune  * Tendance pour les communes de plus de 9 000 habitants 
- * 2004 : Commune * Tour * Liste pour les communes de plus de 3 500 habitants
- * 1986-1992 : Département * Tendance
- * 1998 : Circonscription * Liste
- * 2004-2010 : Circonscription * Tour * Liste
+* [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-regionales-1986-2010/)
+ * Structure des données
+  * 1986-1998 : Commune  * Tendance pour les communes de plus de 9 000 habitants 
+  * 2004 : Commune * Tour * Liste pour les communes de plus de 3 500 habitants
+  * 1986-1992 : Département * Tendance
+  * 1998 : Circonscription * Liste
+  * 2004-2010 : Circonscription * Tour * Liste
 
 ### Elections cantonales et départementales
 
-#### Structure des données du CDSP
-
-* 1988-1998 :  Canton * Tour * Tendance
-* 2001-2011 : Canton * Tour * Candidat
-
-#### Structure des données du ministère de l'Intérieur
-
-* Départementales 2015 : 
-  * Structure : Canton * Binome * Candidat 
-  * Variables : nom, prénom, sexe, date de naissance, profession et statut de sortant du candidat,  nom, prénom, sexe, date de naissance et statut de sortant du suppléant
-  * [Lien](https://www.data.gouv.fr/fr/datasets/elections-departementales-2015-candidatures-1er-tour/)
-
-##### Contexte 
+#### Contexte 
 
 Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des élections départementales. Les premières élections départementales se tiendront les éé et 29 mai 2015. Le mode de scrutin est désormais un scrutin binomial majoritaire à deux tours et les cantons ont été redéfinis et le nombre de cantons a été divisé par deux. On passe de 4 055 à 2 074 cantons en 2014.
 
 * [En savoir plus](https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015)
 
-### Données de l'INA
+#### Structure des données du CDSP
 
-Dans le cadre de DataElections, l'Institut national de l'audiovisuel met à la disposition des participants les métadonnées des journaux télévisés pendant les campagnes électorales. Chaque sujet de JT est décrit par son titre, la chaîne sur laquelle il passe, la durée, le titre du JT, la date du JT, un ensemble de tags et une description. 
+* [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1988-2011/)
+ * 1988-1998 :  Canton * Tour * Tendance
+ * 2001-2011 : Canton * Tour * Candidat
+* [Liste des candidats au élections départementales de 2015](https://www.data.gouv.fr/fr/datasets/elections-departementales-2015-candidatures-1er-tour/) 
+  * Structure : Canton * Binome * Candidat 
+  * Variables : nom, prénom, sexe, date de naissance, profession et statut de sortant du candidat,  nom, prénom, sexe, date de naissance et statut de sortant du suppléant
+
+### Les métadonnées de l'INA sur les journaux télévisés
+
+Dans le cadre de DataElections, l'Institut national de l'audiovisuel met à la disposition des participants les métadonnées des journaux télévisés pendant les campagnes électorales des 10 dernières années. Chaque sujet de JT est décrit par son titre, la chaîne sur laquelle il passe, la durée, le titre du JT, la date du JT, un ensemble de tags et une description. 
 
 Ces données ne sont pas diffusées en OpenData et ceux qui veulent les utiliser doivent s'engager à supprimer les données à la fin de l'événement et à ne pas réutiliser les résultats sans autorisation de l'INA. 
 
@@ -75,18 +90,7 @@ Ces données ne sont pas diffusées en OpenData et ceux qui veulent les utiliser
 
 * [IGN-GeoFla](http://professionnels.ign.fr/geofla#tab-3) Découpage administratif national réalisé par l'IGN. 
  * Contient les Shapefiles des communes, des cantons et des départements de 2011 à 2014  
- * Attention ! Il faut distinguer deux types de cantons : d'une part, le canton "réel", c'est-à-dire la circonscription électorale ; d'autre part, les cantons-et-villes ou pseudo-cantons, unités fictives constituées soit des communes entières comprises dans un canton "réel", soit d'une commune divisée en plusieurs cantons réels et formant un seul pseudo-canton. Les données diffusées par l'IGN ou l'INSEE sous le nom de canton concernent en réalité les pseudo-cantons, et il n'existe pas de découpage des cantons exhaustif (soit avant, soit après 2015) en libre. OpenStreetMap a numérisé [une partie des découpages cantonaux](http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France), avant et après 2015. On peut accéder aux cantons 2015 via l'API Overpass. Par exemple, on peut entrer la requête suivante dans http://overpass-turbo.eu/ :
-```
-// gather results
-(
-  // query part for: “political_division=canton”
-  relation["political_division"="canton"]({{bbox}});
-);
-// print results
-out body;
->;
-out skel qt;
-```
+ * Voir la [note sur les cantons](https://github.com/SGMAP-AGD/Elections/blob/master/notes_sur_les_cantons.md)
 * [Contour des communes actuelles d'après OpenStreetMap](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/)
 * [Contour des départements actuels d'après OpenStreetMap](https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/)
 * Contour des circonscriptions électorales après le redécoupage de 2010 : 
@@ -116,6 +120,11 @@ out skel qt;
 * [Résultat des élections européennes de 2014](https://www.data.gouv.fr/fr/datasets/elections-europeennes-2014-resulta-2/) au niveau de la circonscription électorale européenne, de la région, du département, de la circonscription législative et du canton
 * [Résultat des élections européennes de 2014 par commune](https://www.data.gouv.fr/fr/datasets/elections-europeennes-2014-resultats-par-communes/)
 
+* Données par bureau de vote publiées par Regards Citoyens
+ * [Résultats des élections présidentielles de 2002](https://www.data.gouv.fr/fr/datasets/resultats-des-presidentielles-2002-nd/] 
+ * [Résultats des élections présidentielles de 2007](https://www.data.gouv.fr/fr/datasets/resultats-des-elections-presidentielles-2007-nd/)
+ * [Résultats des élections présidentielles de 2012](https://www.data.gouv.fr/fr/datasets/resultat-des-elections-presidentielles-francaise-de-2012-au-niveau-bureau-de-vote-nd/)
+ 
 #### Comptes de campagne
 
 * [Données des comptes de campagne des élections législatives de 2012](https://www.data.gouv.fr/fr/datasets/tableau-general-des-elections-legislatives-des-10-et-17-juin-2012/)
