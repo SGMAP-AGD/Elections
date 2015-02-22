@@ -44,7 +44,7 @@ Note: le signe ' * ' indique le croisement de variable.
 
 * L'élection législative de 1986 est la seule élection au scrutin proportionnel
 
-#### Structure des données : 
+#### Données du CDSP 
 
 * [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-legislatives-1958-2012/)
  * 1958-1981 : Circonscription * Tour * Tendance
@@ -73,15 +73,17 @@ Note: le signe ' * ' indique le croisement de variable.
 
 ### Elections régionales
 
-* [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-regionales-1986-2010/)
- * Structure des données
-  * 1986-1998 : Commune  * Tendance pour les communes de plus de 9 000 habitants 
-  * 2004 : Commune * Tour * Liste pour les communes de plus de 3 500 habitants
-  * 1986-1992 : Département * Tendance
-  * 1998 : Circonscription * Liste
-  * 2004-2010 : Circonscription * Tour * Liste
+#### Données du CDSP
 
-##### Données du ministère de l'Intérieur 
+* [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-regionales-1986-2010/)
+* Structure des données
+ * 1986-1998 : Commune  * Tendance pour les communes de plus de 9 000 habitants 
+ * 2004 : Commune * Tour * Liste pour les communes de plus de 3 500 habitants
+ * 1986-1992 : Département * Tendance
+ * 1998 : Circonscription * Liste
+ * 2004-2010 : Circonscription * Tour * Liste
+
+#### Données du ministère de l'Intérieur 
 
 * Structure : Canton * tour * liste
 	* Note : Les résultats sont aussi agrégés par circonscription législative, département et région 	 	
@@ -95,7 +97,6 @@ Note: le signe ' * ' indique le croisement de variable.
 * Structure : Commune * tour * liste
 	* [2004](https://www.data.gouv.fr/fr/datasets/elections-regionales-2004-resultats-572143/)
 	* [2010](https://www.data.gouv.fr/fr/datasets/elections-regionales-2010-resultats-572148/) 	
-	* 
 
 ### Elections cantonales et départementales
 
