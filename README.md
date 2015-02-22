@@ -25,16 +25,18 @@ Note: le signe ' * ' indique le croisement de variable.
 
 #### Données du ministère de l'Intérieur
 
-* [Résultats des élections présidentielles de 1995 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-1995-resultats-572083/)
- * Note : Les résultats sont aussi agrégés par circonscription législative, département et région 
-* [Résultats des élections présidentielles de 1995 par commune](https://www.data.gouv.fr/fr/datasets/election-presidentielle-1995-resultats-572085/) 
-* [Résultats des élections présidentielles de 2002 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572114/)
-* Résultats des élections présidentielles de 2002 par commune ([1er tour](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572116/), [2ème tour](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572118/))
-* [Résultats des élections présidentielles de 2007 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2007-resultats-572120/)
-* [Résultats des élections présidentielles de 2007 par commune](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2007-resultats-572122/)
-* [Résultats des élections présidentielles de 2012 par canton](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2012-resultats-572124/)
- * Note : Les résultats sont aussi agrégés par circonscription législative, département et région 
-* [Résultats des élections présidentielles de 2012 par commune](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2012-resultats-572126/)
+* Structure : canton * tour * candidat : 
+	* Note : Les résultats sont aussi agrégés par circonscription législative, département et région  
+	* [1995](https://www.data.gouv.fr/fr/datasets/election-presidentielle-1995-resultats-572083/)
+	* [2002](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572114/)
+	* [2007](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2007-resultats-572120/) 
+	* [2012](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2012-resultats-572124/)
+ 
+* Structure : commune * tour * candidat : 
+	* [1995](https://www.data.gouv.fr/fr/datasets/election-presidentielle-1995-resultats-572085/) 
+	* 2002 :  [1er tour](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572116/), [2ème tour](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2002-resultats-572118/)
+	* [2007](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2007-resultats-572122/)
+	* [2012](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2012-resultats-572126/)
 
 ### Elections législatives
 
@@ -51,6 +53,24 @@ Note: le signe ' * ' indique le croisement de variable.
  * 1988-1997 : Commune * Tour * Tendance pour les communes de plus de 9 000 habitants
  * 2002-2012 : Commune * Tour * Tendance pour toutes les communes
 
+#### Données du ministère de l'intérieur
+
+* Structure : Canton * tour * candidat 
+	* Note : Les résultats sont aussi agrégés par circonscription législative, département et région   
+	* [1993](https://www.data.gouv.fr/fr/datasets/elections-legislatives-1993-resultats-572057/)
+	* [1997](https://www.data.gouv.fr/fr/datasets/elections-legislatives-1997-resultats-572061/)
+	* [2002](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2002-resultats-572065/)
+	* [2007](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2007-resultats-572071/)
+	* [2012](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2012-resultats-572077/)
+	* 
+
+* Structure : Commune * tour * candidat 
+	* [1993](https://www.data.gouv.fr/fr/datasets/elections-legislatives-1993-resultats-572059/)
+	* [1997](https://www.data.gouv.fr/fr/datasets/elections-legislatives-1997-resultats-572063/)
+	* 2002 : [tour 1](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2002-resultats-572067/), [tour 2](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2002-resultats-572069/)
+	* 2007 : [tour 1](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2007-resultats-572073/), [tour 2](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2007-resultats-572075/)
+	* [2012](https://www.data.gouv.fr/fr/datasets/elections-legislatives-2012-resultats-572079/)
+
 ### Elections régionales
 
 * [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-regionales-1986-2010/)
@@ -61,6 +81,22 @@ Note: le signe ' * ' indique le croisement de variable.
   * 1998 : Circonscription * Liste
   * 2004-2010 : Circonscription * Tour * Liste
 
+##### Données du ministère de l'Intérieur 
+
+* Structure : Canton * tour * liste
+	* Note : Les résultats sont aussi agrégés par circonscription législative, département et région 	 	
+	* [2004](https://www.data.gouv.fr/fr/datasets/elections-regionales-2004-resultats-572139/)
+	* [2010](https://www.data.gouv.fr/fr/datasets/elections-regionales-2010-resultats-572146/) 	
+
+* Structure : Département * tour * liste
+	* Note : les résultats sont aussi agrégés par région 	
+	* [1998](https://www.data.gouv.fr/fr/datasets/elections-regionales-1998-571487/)
+
+* Structure : Commune * tour * liste
+	* [2004](https://www.data.gouv.fr/fr/datasets/elections-regionales-2004-resultats-572143/)
+	* [2010](https://www.data.gouv.fr/fr/datasets/elections-regionales-2010-resultats-572148/) 	
+	* 
+
 ### Elections cantonales et départementales
 
 #### Contexte 
@@ -69,11 +105,34 @@ Depuis la loi du 17 mai 2013, les élections cantonales sont remplacées par des
 
 * [En savoir plus](https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015)
 
-#### Structure des données du CDSP
+#### Données du CDSP
 
 * [Données du CDSP](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1988-2011/)
  * 1988-1998 :  Canton * Tour * Tendance
  * 2001-2011 : Canton * Tour * Candidat
+
+
+#### Données du ministère de l'Intérieur
+
+* Structure : Canton * Tour * Candidat
+	* Note : Les données sont aussi agrégées par circonscription législative, département et région 	
+	* [1992](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1992-resultats-572027/)
+	* [1994](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1994-resultats-572031/)
+	* [1998](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1998-resultats-572036/)
+	* [2001](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2001-resultats-572041/)
+	* [2004](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2004-resultats-572045/)
+	* [2008](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2008-resultats-572049/)
+	* [2011](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2011-resultats-572053/) 	
+
+* Structure : Commune * Tour * Candidat
+	* [1992](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1992-resultats-572029/)	 
+	* [1994](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1994-resultats-572033/)
+	* [1998](https://www.data.gouv.fr/fr/datasets/elections-cantonales-1998-resultats-572038/)
+	* [2001](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2001-resultats-572043/) 
+	* [2004](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2004-resultats-572047/)
+	* [2008](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2008-resultats-572051/)
+	* [2011](https://www.data.gouv.fr/fr/datasets/elections-cantonales-2011-resultats-572055/)
+
 * [Liste des candidats au élections départementales de 2015](https://www.data.gouv.fr/fr/datasets/elections-departementales-2015-candidatures-1er-tour/) 
   * Structure : Canton * Binome * Candidat 
   * Variables : nom, prénom, sexe, date de naissance, profession et statut de sortant du candidat,  nom, prénom, sexe, date de naissance et statut de sortant du suppléant
@@ -116,11 +175,19 @@ Ces données ne sont pas diffusées en OpenData et ceux qui veulent les utiliser
 ### Données électorales
 
 * [Résultats électoraux publiés par le ministère de l'Intérieur](http://www.interieur.gouv.fr/Elections/Les-resultats)
+* [Ensemble des données électorales du ministère de l'Intéireur](https://www.data.gouv.fr/fr/datasets/resultats-de-lintegralite-des-elections-depuis-2001/), format XML
+
+#### Elections européennes
 
 * [Résultat des élections européennes de 2014](https://www.data.gouv.fr/fr/datasets/elections-europeennes-2014-resulta-2/) au niveau de la circonscription électorale européenne, de la région, du département, de la circonscription législative et du canton
 * [Résultat des élections européennes de 2014 par commune](https://www.data.gouv.fr/fr/datasets/elections-europeennes-2014-resultats-par-communes/)
 
-* Données par bureau de vote publiées par Regards Citoyens
+#### Elections municipales
+
+* [Thématique consacrée aux élections municipales sur DataGouvFr](https://www.data.gouv.fr/fr/datasets/thematique-elections-municipales/)
+
+#### Données par bureau de vote publiées par Regards Citoyens
+
  * [Résultats des élections présidentielles de 2002](https://www.data.gouv.fr/fr/datasets/resultats-des-presidentielles-2002-nd/] 
  * [Résultats des élections présidentielles de 2007](https://www.data.gouv.fr/fr/datasets/resultats-des-elections-presidentielles-2007-nd/)
  * [Résultats des élections présidentielles de 2012](https://www.data.gouv.fr/fr/datasets/resultat-des-elections-presidentielles-francaise-de-2012-au-niveau-bureau-de-vote-nd/)
