@@ -60,5 +60,7 @@ tab['ville'] = city
 tab['region'] = region
 tab['dep'] = departement
 
+tab.to_csv('hertzien_with_localite.csv', sep=';', encoding='utf8')
+
 
 
