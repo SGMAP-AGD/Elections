@@ -2,3 +2,4 @@
 *.csv
 *.txt
 INA/data/OpenDataCamp Elections.doc
+*.pyc
