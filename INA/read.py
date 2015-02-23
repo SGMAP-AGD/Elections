@@ -9,6 +9,8 @@ import os
 import pandas as pd
 import datetime
 
+from date_elections import date_elections
+
 ## lecture brute
 # tab = pd.read_csv('data/hertzien_UTF8.csv', sep=';', parse_dates = [4])
 #year = tab.horaireDebut.str[:4]
@@ -17,7 +19,9 @@ import datetime
 ## on parse la date (en jour)
 parse = lambda x:datetime.datetime.strptime(x[:10], '%Y-%m-%d')
 tab = pd.read_csv('data/hertzien_UTF8.csv', sep=';', parse_dates = [4], 
-            date_parser=parse)
+            date_parser=parse, encoding='utf8')
+tab = tab.iloc[:-2,:]
 
 
 tab['date'] = pd.DatetimeIndex(tab.horaireDebut)
+date = pd.DatetimeIndex(tab.horaireDebut)
