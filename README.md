@@ -12,8 +12,9 @@ N'hésitez pas à publier vos projets, par exemple sur GitHub, et à poster vos 
 
 ### Projets menés
 
+* [Les mots clés des élections](https://github.com/MattiSG/elections-mots-cles) par @MattiSG et @flo_sugar
 * [Le Charcutomètre](https://gist.github.com/cquest/0105e48cb2bfb8df161a) par Christian Quest
-* [DataCamp](https://github.com/joelgombin/-Datacamp) 
+* [DataCamp](https://github.com/joelgombin/-Datacamp) par @joelgombin et @antoinejardin
 * [Composition socio-démographique de la commune et vote](https://github.com/SGMAP-AGD/csp_vote)
 
 ## Données du hackathon
