@@ -12,6 +12,7 @@ N'hésitez pas à publier vos projets, par exemple sur GitHub, et à poster vos 
 
 ### Projets menés
 
+* [Le Charcutomètre](https://gist.github.com/cquest/0105e48cb2bfb8df161a) par Christian Quest
 * [DataCamp](https://github.com/joelgombin/-Datacamp) 
 * [Composition socio-démographique de la commune et vote](https://github.com/SGMAP-AGD/csp_vote)
 
