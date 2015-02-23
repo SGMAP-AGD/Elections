@@ -10,6 +10,11 @@ Chacun peut proposer un sujet sur le [pad](https://lite5.framapad.org/p/x7bq6bVy
 
 N'hésitez pas à publier vos projets, par exemple sur GitHub, et à poster vos réutilisations sur [DataGouv](http://www.data.gouv.fr/).
 
+### Projets menés
+
+* [DataCamp](https://github.com/joelgombin/-Datacamp) 
+* [Composition socio-démographique de la commune et vote](https://github.com/SGMAP-AGD/csp_vote)
+
 ## Données du hackathon
 
 Note: le signe ' * ' indique le croisement de variable.
