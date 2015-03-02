@@ -199,7 +199,7 @@ Ces données ne sont pas diffusées en OpenData et ceux qui veulent les utiliser
 
 #### Données par bureau de vote publiées par Regards Citoyens
 
- * [Résultats des élections présidentielles de 2002](https://www.data.gouv.fr/fr/datasets/resultats-des-presidentielles-2002-nd/] 
+ * [Résultats des élections présidentielles de 2002](https://www.data.gouv.fr/fr/datasets/resultats-des-presidentielles-2002-nd/) 
  * [Résultats des élections présidentielles de 2007](https://www.data.gouv.fr/fr/datasets/resultats-des-elections-presidentielles-2007-nd/)
  * [Résultats des élections présidentielles de 2012](https://www.data.gouv.fr/fr/datasets/resultat-des-elections-presidentielles-francaise-de-2012-au-niveau-bureau-de-vote-nd/)
  
