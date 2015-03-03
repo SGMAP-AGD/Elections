@@ -19,6 +19,7 @@ N'hésitez pas à publier vos projets, par exemple sur GitHub, et à poster vos 
 * [Le réseau des données de l'INA](http://coulmont.com/blog/2015/02/25/quelques-relations/) par @coulmont et le [code R](https://github.com/SGMAP-AGD/Elections/blob/master/projet-ina/data-ina.R)
 * [Analyse des transitions des circonscriptions entre partis politiques lors de l'ensemble des élections législatives (non terminé)](https://github.com/tarNeFyS/od-election) [Vizu](http://www.regardscitoyens.org/pad-preview/#https://pad.lqdn.fr/p/od-elections)
 
+* [Retour sur l'Open Data Camp Elections](https://www.etalab.gouv.fr/retour-sur-lopen-data-camp-elections), une synthèse des différents travaux par Romain Talès sur le blog d'Etalab.
 
 ## Données du hackathon
 
