@@ -22,6 +22,6 @@ dept %>%
     theme_tufte(ticks = FALSE) + 
     theme(axis.text = element_blank(), 
           axis.title = element_blank()) + 
-    labs(title = "Carte des départements de France métropolitainee en 2014")
+    labs(title = "Carte des départements de France métropolitaine en 2014")
 
 
